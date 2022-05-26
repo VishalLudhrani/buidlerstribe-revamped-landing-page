@@ -27,7 +27,7 @@ const SOCIALS = [
 
 const Socials: React.FC = () => {
   return (
-    <div className="flex items-center justify-between sm:justify-end text-xl pb-4">
+    <div className="flex items-center justify-center lg:justify-start text-xl pb-4">
       {SOCIALS.map((item, pos) => (
         <a key={pos} href={item.link} className="mx-3">
           {item.icon}
