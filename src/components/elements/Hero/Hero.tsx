@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         alt="Logo vector"
         width="auto"
         height="100vh"
-        className="mx-auto mt-[-12rem] sm:mt-[-16rem] md:mt-[-22rem] xl:mt-[-20rem] z-0 blur-sm"
+        className="mx-auto mt-[-10rem] sm:mt-[-16rem] md:mt-[-22rem] xl:mt-[-20rem] z-0 blur-sm"
         style={{ position: 'relative' }}
       />
     </section>

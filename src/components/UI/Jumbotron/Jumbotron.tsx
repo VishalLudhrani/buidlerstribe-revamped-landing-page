@@ -4,7 +4,7 @@ interface JumbotronProps {
 
 const Jumbotron: React.FC<JumbotronProps> = ({ children }: JumbotronProps) => {
   return (
-    <div className="container mx-auto pt-32 md:pt-48 text-center">
+    <div className="container mx-auto pt-24 md:pt-32 text-center">
       {children}
     </div>
   )
