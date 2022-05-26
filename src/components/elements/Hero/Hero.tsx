@@ -2,7 +2,7 @@ import { Jumbotron } from "../../UI";
 
 const Hero: React.FC = () => {
   return (
-    <section className="text-dark h-[100vh]" style={{ position: 'relative' }}>
+    <section className="text-dark" style={{ position: 'relative' }}>
       <div className="z-10" style={{ position: 'relative' }}>
         <Jumbotron>
           <>

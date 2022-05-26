@@ -1,4 +1,5 @@
 export const WEBSITE_URL = "https://buidlerstribe.com";
+
 export const NAVBAR_MENU = [
   {
     label: "Our Startups",
@@ -36,3 +37,18 @@ export const FOOTER_COMPANY_LINKS = [
     link: WEBSITE_URL + "/jobs",
   },
 ];
+
+export const HIGHLIGHTS = [
+  {
+    imgUrl: "/images/presentation.png",
+    label: "700 Startup Pitches"
+  },
+  {
+    imgUrl: "/images/handshake.png",
+    label: "15 Startups Selected"
+  },
+  {
+    imgUrl: "/images/investor.png",
+    label: "40+ VCs and 100+ Investors"
+  },
+]
