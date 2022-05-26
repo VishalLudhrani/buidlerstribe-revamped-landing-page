@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { Hero } from '../components/elements';
 
 const Home: NextPage = () => {
   return (
@@ -8,7 +9,7 @@ const Home: NextPage = () => {
         <title>Buidlers Tribe</title>
       </Head>
       <main>
-        <h1 className='font-bold text-4xl text-dark'>Get access to the best investors and VCs in web3</h1>
+        <Hero />
       </main>
     </>
   )
